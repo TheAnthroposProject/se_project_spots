@@ -120,6 +120,56 @@
       <footer class="footer">
         <p class="footer__copyright">2026 &copy; Spots</p>
       </footer>
+      <div class="modal">
+        <div class="modal__container">
+          <button type="button" class="modal__close-bttn"></button>
+          <h2 class="modal__title">Edit Profile</h2>
+          <form class="modal__form">
+            <label for="profile-name-input" class="modal__label"
+              >Name<input
+                id="profile-name-input"
+                placeholder="Type your name"
+                type="text"
+                class="model__input"
+            /></label>
+            <label for="description-input" class="modal__label"
+              >Description
+              <input
+                id="profile-description-input"
+                placeholder="Describe yourself"
+                type="text"
+                class="modal__input"
+              />
+            </label>
+            <button type="submit" class="modal__save-bttn">Save</button>
+          </form>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal__container">
+          <button type="button" class="modal__close-bttn"></button>
+          <h2 class="modal__title">New Post</h2>
+          <form class="modal__form">
+            <label for="card-image-input" class="modal__label"
+              >Image link<input
+                id="card-image-input"
+                placeholder="Paste a link to the picture"
+                type="url"
+                class="modal__input"
+            /></label>
+            <label for="card-caption-input" class="modal__label"
+              >Caption
+              <input
+                id="card-caption-input"
+                placeholder="Type your caption"
+                type="text"
+                class="modal__input"
+              />
+            </label>
+            <button type="submit" class="modal__save-bttn">Save</button>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>
